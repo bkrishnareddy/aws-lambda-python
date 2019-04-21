@@ -9,5 +9,3 @@ queue = sqs.create_queue(QueueName='test', Attributes={'DelaySeconds': '5'})
 # You can now access identifiers and attributes
 print(queue.url)
 print(queue.attributes.get('DelaySeconds'))
-
-# Added comment in Dev branch
